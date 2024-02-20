@@ -31,7 +31,7 @@ const
         <hr />
         <div>
           {menu.map((item, index) => (
-            <div className='group flex gap-3 mt-1 p-3 text-[20px] items-center text-gray-700 cursor-pointer hover:bg-primary rounded-md hover:text-white transition-all ease-in-out duration-300' key={item.id}>
+            <div className='group flex gap-3 mt-4 p-3 text-[20px] items-center text-gray-700 cursor-pointer hover:bg-primary rounded-md hover:text-white transition-all ease-in-out duration-300' key={item.id}>
               <item.icon className='group-hover:animate-bounce' />
               <h2>
                 {item.name}
