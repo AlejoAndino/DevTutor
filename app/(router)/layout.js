@@ -1,13 +1,17 @@
 import React from "react";
 import SideNav from "./_components/SideNav";
+import Header from "./_components/Header";
 
 const layout = ({ children }) => {
   return (
     <div>
-      <div className="fixed">
+      <div className="fixed sm:block hidden">
         <SideNav />
       </div>
-      {children}
+      <div className="ml-56">
+        <Header />
+        {children}
+      </div>
     </div>
   );
 };
